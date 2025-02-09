@@ -26,12 +26,16 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cb-NQ-4p9">
-                                        <rect key="frame" x="37" y="190" width="320" height="190"/>
+                                        <rect key="frame" x="36.666666666666657" y="189.66666666666663" width="320" height="190"/>
                                     </datePicker>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkJ-Hs-AdR">
                                         <rect key="frame" x="159" y="379.66666666666669" width="75" height="189.66666666666669"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Button">
+                                            <backgroundConfiguration key="background">
+                                                <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oDL-Du-0sZ"/>
                                         </connections>
@@ -64,6 +68,7 @@
                         <outlet property="clockLabel" destination="24z-Ii-8Je" id="Eeg-9q-TIX"/>
                         <outlet property="datePicker" destination="6cb-NQ-4p9" id="hzH-WO-2qz"/>
                         <outlet property="remainingLabel" destination="gVg-lT-XEN" id="Z7R-xD-MDS"/>
+                        <outlet property="startButton" destination="zkJ-Hs-AdR" id="uql-UM-dvJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
